@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TerraVegan</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800;900&family=Roboto:wght@100;300;500;900&display=swap');
+</style>
+<link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+	<div class="padre">
+    <header class="header">
+      <div class="logo">
+        <a href="../index.html"><img src="../img/tvl.png" alt="TerraVegan"></a>
+      </div>
+      
+        <nav class="nav">
+          <ul>
+              <li><a href="../index.html">home</a></li>
+			  <li><a href="./carta.html">carta</a></li>
+			  <li><a href="../pages/galeria.html">galería</a></li>
+			  <li><a href="../pages/contacto.html">contacto</a></li>
+			  <li><a href="../pages/mapa.html">mapa</a></li>
+          </ul>
+        </nav>
+      
+    </header>
+
+<main>
+	<h2>Envianos un mensaje</h2>
+
+	<form action="enviar.php" method="post" enctype="text/plain">
+		<label for="Nombre">Nombre</label>
+		<input type="text"><br>
+		<label for="Apellido">Apellido</label>
+		<input type="text"><br>
+		<label for="E-mail">E-mail</label>
+		<input type="text"><br><br>
+		<label for="">Preguntas y comentarios</label><br>
+		<textarea name="Preguntas y comentarios" id="" cols="30" rows="10" placeholder="escribe tu mensaje"></textarea><br>
+		<input type="submit">
+		<input type="reset">
+	</form>
+</main>
+
+	<footer class="footer">
+    <nav class="pie">
+      <a><img src="../img/tvlm.png" alt="desarrollo web"></a>
+      <p>Come sano</p>
+      <p>Come vegano</p>
+      <p>Seguinos en nuestro instagram</p>
+      <a href="https://www.instagram.com/terravegan_burjassot/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </nav>
+  </footer>
+  </div>
+</body>
+</html>
