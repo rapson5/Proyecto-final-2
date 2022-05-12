@@ -9,15 +9,9 @@
 .beige{
   background-color: beige;
 }
-
 .logoconteiner{
   background-color: black;
   height: 315px;
-}
-
-.imglogo{
-  display: flex;
-  justify-content: center;
 }
 /* NAV */
 .textdec{
